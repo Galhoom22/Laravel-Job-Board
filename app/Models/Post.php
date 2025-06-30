@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    protected $fillable = ['title', 'body', 'published']; // fields that can be mass assigned
+    protected $fillable = ['title', 'body', 'author', 'published']; // fields that can be mass assigned
     protected $guarded = ['id']; // fields that cannot be mass assigned
 }
